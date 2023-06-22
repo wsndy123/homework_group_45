@@ -1,0 +1,607 @@
+INFO: [HLS 200-10] Running 'D:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/vivado_hls.exe'
+INFO: [HLS 200-10] For user '23623' on host 'laptop-invkfq0a' (Windows NT_amd64 version 6.2) on Thu Jun 22 00:20:47 +0800 2023
+INFO: [HLS 200-10] In directory 'D:/sm4last'
+Sourcing Tcl script 'D:/sm4last/sm4/solution1/cosim.tcl'
+INFO: [HLS 200-10] Opening project 'D:/sm4last/sm4'.
+INFO: [HLS 200-10] Opening solution 'D:/sm4last/sm4/solution1'.
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg400-1'
+INFO: [COSIM 212-47] Using XSIM for RTL simulation.
+INFO: [COSIM 212-14] Instrumenting C test bench ...
+   Build using "D:/Xilinx/Vivado/2019.1/msys64/mingw64/bin/g++"
+   Compiling apatb_Work.cpp
+   Compiling (apcc) sm4.c_pre.c.tb.c
+INFO: [HLS 200-10] Running 'D:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/apcc.exe'
+INFO: [HLS 200-10] For user '23623' on host 'laptop-invkfq0a' (Windows NT_amd64 version 6.2) on Thu Jun 22 00:21:02 +0800 2023
+INFO: [HLS 200-10] In directory 'D:/sm4last/sm4/solution1/sim/wrapc'
+clang: warning: argument unused during compilation: '-fno-builtin-isinf'
+clang: warning: argument unused during compilation: '-fno-builtin-isnan'
+INFO: [APCC 202-3] Tmp directory is apcc_db
+INFO: [APCC 202-1] APCC is done.
+   Compiling (apcc) test.c_pre.c.tb.c
+INFO: [HLS 200-10] Running 'D:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/apcc.exe'
+INFO: [HLS 200-10] For user '23623' on host 'laptop-invkfq0a' (Windows NT_amd64 version 6.2) on Thu Jun 22 00:22:18 +0800 2023
+INFO: [HLS 200-10] In directory 'D:/sm4last/sm4/solution1/sim/wrapc'
+clang: warning: argument unused during compilation: '-fno-builtin-isinf'
+clang: warning: argument unused during compilation: '-fno-builtin-isnan'
+INFO: [APCC 202-3] Tmp directory is apcc_db
+INFO: [APCC 202-1] APCC is done.
+   Generating cosim.tv.exe
+INFO: [COSIM 212-302] Starting C TB testing ... 
+INFO: [COSIM 212-333] Generating C post check test bench ...
+INFO: [COSIM 212-12] Generating RTL test bench ...
+INFO: [COSIM 212-1] *** C/RTL co-simulation file generation completed. ***
+INFO: [COSIM 212-323] Starting verilog simulation. 
+INFO: [COSIM 212-15] Starting XSIM ...
+
+D:\sm4last\sm4\solution1\sim\verilog>set PATH= 
+
+D:\sm4last\sm4\solution1\sim\verilog>call D:/Xilinx/Vivado/2019.1/bin/xelab xil_defaultlib.apatb_Work_top glbl -prj Work.prj -L smartconnect_v1_0 -L axi_protocol_checker_v1_1_12 -L axi_protocol_checker_v1_1_13 -L axis_protocol_checker_v1_1_11 -L axis_protocol_checker_v1_1_12 -L xil_defaultlib -L unisims_ver -L xpm --initfile "D:/Xilinx/Vivado/2019.1/data/xsim/ip/xsim_ip.ini" --lib "ieee_proposed=./ieee_proposed" -s Work  
+INFO: [XSIM 43-3496] Using init file passed via -initfile option "D:/Xilinx/Vivado/2019.1/data/xsim/ip/xsim_ip.ini".
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe xil_defaultlib.apatb_Work_top glbl -prj Work.prj -L smartconnect_v1_0 -L axi_protocol_checker_v1_1_12 -L axi_protocol_checker_v1_1_13 -L axis_protocol_checker_v1_1_11 -L axis_protocol_checker_v1_1_12 -L xil_defaultlib -L unisims_ver -L xpm --initfile D:/Xilinx/Vivado/2019.1/data/xsim/ip/xsim_ip.ini --lib ieee_proposed=./ieee_proposed -s Work 
+Multi-threading is on. Using 10 slave threads.
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/glbl.v" into library work
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_10.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_10
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_100.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_100
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_101.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_101
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_102.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_102
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_103.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_103
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_104.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_104
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_105.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_105
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_106.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_106
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_107.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_107
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_108.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_108
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_109.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_109
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_11.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_11
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_110.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_110
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_111.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_111
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_112.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_112
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_113.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_113
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_114.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_114
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_115.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_115
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_116.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_116
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_117.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_117
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_118.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_118
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_119.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_119
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_12.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_12
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_120.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_120
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_121.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_121
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_122.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_122
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_123.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_123
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_124.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_124
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_125.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_125
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_126.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_126
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_127.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_127
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_128.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_128
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_129.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_129
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_13.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_13
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_130.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_130
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_131.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_131
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_132.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_132
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_133.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_133
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_134.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_134
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_135.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_135
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_136.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_136
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_137.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_137
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_138.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_138
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_139.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_139
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_14.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_14
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_140.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_140
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_141.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_141
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_142.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_142
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_143.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_143
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_144.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_144
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_145.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_145
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_146.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_146
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_147.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_147
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_148.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_148
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_149.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_149
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_15.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_15
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_150.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_150
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_151.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_151
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_152.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_152
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_153.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_153
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_154.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_154
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_155.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_155
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_156.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_156
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_157.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_157
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_158.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_158
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_159.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_159
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_16
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_160.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_160
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_17.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_17
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_18.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_18
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_19.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_19
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_2
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_20.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_20
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_21.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_21
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_22.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_22
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_23.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_23
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_24.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_24
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_25.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_25
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_26.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_26
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_27.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_27
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_28.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_28
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_29.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_29
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_3
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_30.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_30
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_31.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_31
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_32
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_33.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_33
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_34.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_34
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_35.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_35
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_36.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_36
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_37.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_37
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_38.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_38
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_39.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_39
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_4
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_40.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_40
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_41.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_41
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_42.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_42
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_43.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_43
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_44.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_44
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_45.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_45
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_46.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_46
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_47.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_47
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_48.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_48
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_49.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_49
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_5
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_50.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_50
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_51.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_51
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_52.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_52
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_53.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_53
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_54.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_54
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_55.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_55
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_56.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_56
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_57.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_57
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_58.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_58
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_59.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_59
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_6.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_6
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_60.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_60
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_61.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_61
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_62.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_62
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_63.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_63
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_64.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_64
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_65.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_65
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_66.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_66
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_67.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_67
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_68.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_68
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_69.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_69
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_7.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_7
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_70.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_70
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_71.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_71
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_72.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_72
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_73.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_73
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_74.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_74
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_75.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_75
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_76.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_76
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_77.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_77
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_78.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_78
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_79.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_79
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_8
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_80.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_80
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_81.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_81
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_82.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_82
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_83.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_83
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_84.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_84
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_85.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_85
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_86.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_86
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_87.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_87
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_88.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_88
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_89.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_89
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_9.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_9
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_90.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_90
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_91.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_91
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_92.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_92
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_93.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_93
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_94.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_94
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_95.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_95
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_96.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_96
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_97.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_97
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_98.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_98
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/encryptSM4_99.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encryptSM4_99
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/functionT.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module functionT
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/functionT_Sbox.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module functionT_Sbox_rom
+INFO: [VRFC 10-311] analyzing module functionT_Sbox
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/Work.autotb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apatb_Work_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/Work.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Work
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/Work_data_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Work_data_0_rom
+INFO: [VRFC 10-311] analyzing module Work_data_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/Work_data_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Work_data_1_rom
+INFO: [VRFC 10-311] analyzing module Work_data_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/Work_data_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Work_data_2_rom
+INFO: [VRFC 10-311] analyzing module Work_data_2
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/sm4last/sm4/solution1/sim/verilog/Work_data_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Work_data_3_rom
+INFO: [VRFC 10-311] analyzing module Work_data_3
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Work_data_0_rom
+Compiling module xil_defaultlib.Work_data_0(DataWidth=32,Address...
+Compiling module xil_defaultlib.Work_data_1_rom
+Compiling module xil_defaultlib.Work_data_1(DataWidth=32,Address...
+Compiling module xil_defaultlib.Work_data_2_rom
+Compiling module xil_defaultlib.Work_data_2(DataWidth=32,Address...
+Compiling module xil_defaultlib.Work_data_3_rom
+Compiling module xil_defaultlib.Work_data_3(DataWidth=32,Address...
+Compiling module xil_defaultlib.functionT_Sbox_rom
+Compiling module xil_defaultlib.functionT_Sbox(DataWidth=8,Addre...
+Compiling module xil_defaultlib.functionT
+Compiling module xil_defaultlib.encryptSM4
+Compiling module xil_defaultlib.encryptSM4_1
+Compiling module xil_defaultlib.encryptSM4_2
+Compiling module xil_defaultlib.encryptSM4_3
+Compiling module xil_defaultlib.encryptSM4_4
+Compiling module xil_defaultlib.encryptSM4_5
+Compiling module xil_defaultlib.encryptSM4_6
+Compiling module xil_defaultlib.encryptSM4_7
+Compiling module xil_defaultlib.encryptSM4_8
+Compiling module xil_defaultlib.encryptSM4_9
+Compiling module xil_defaultlib.encryptSM4_10
+Compiling module xil_defaultlib.encryptSM4_11
+Compiling module xil_defaultlib.encryptSM4_12
+Compiling module xil_defaultlib.encryptSM4_13
+Compiling module xil_defaultlib.encryptSM4_14
+Compiling module xil_defaultlib.encryptSM4_15
+Compiling module xil_defaultlib.encryptSM4_16
+Compiling module xil_defaultlib.encryptSM4_17
+Compiling module xil_defaultlib.encryptSM4_18
+Compiling module xil_defaultlib.encryptSM4_19
+Compiling module xil_defaultlib.encryptSM4_20
+Compiling module xil_defaultlib.encryptSM4_21
+Compiling module xil_defaultlib.encryptSM4_22
+Compiling module xil_defaultlib.encryptSM4_23
+Compiling module xil_defaultlib.encryptSM4_24
+Compiling module xil_defaultlib.encryptSM4_25
+Compiling module xil_defaultlib.encryptSM4_26
+Compiling module xil_defaultlib.encryptSM4_27
+Compiling module xil_defaultlib.encryptSM4_28
+Compiling module xil_defaultlib.encryptSM4_29
+Compiling module xil_defaultlib.encryptSM4_30
+Compiling module xil_defaultlib.encryptSM4_31
+Compiling module xil_defaultlib.encryptSM4_32
+Compiling module xil_defaultlib.encryptSM4_33
+Compiling module xil_defaultlib.encryptSM4_34
+Compiling module xil_defaultlib.encryptSM4_35
+Compiling module xil_defaultlib.encryptSM4_36
+Compiling module xil_defaultlib.encryptSM4_37
+Compiling module xil_defaultlib.encryptSM4_38
+Compiling module xil_defaultlib.encryptSM4_39
+Compiling module xil_defaultlib.encryptSM4_40
+Compiling module xil_defaultlib.encryptSM4_41
+Compiling module xil_defaultlib.encryptSM4_42
+Compiling module xil_defaultlib.encryptSM4_43
+Compiling module xil_defaultlib.encryptSM4_44
+Compiling module xil_defaultlib.encryptSM4_45
+Compiling module xil_defaultlib.encryptSM4_46
+Compiling module xil_defaultlib.encryptSM4_47
+Compiling module xil_defaultlib.encryptSM4_48
+Compiling module xil_defaultlib.encryptSM4_49
+Compiling module xil_defaultlib.encryptSM4_50
+Compiling module xil_defaultlib.encryptSM4_51
+Compiling module xil_defaultlib.encryptSM4_52
+Compiling module xil_defaultlib.encryptSM4_53
+Compiling module xil_defaultlib.encryptSM4_54
+Compiling module xil_defaultlib.encryptSM4_55
+Compiling module xil_defaultlib.encryptSM4_56
+Compiling module xil_defaultlib.encryptSM4_57
+Compiling module xil_defaultlib.encryptSM4_58
+Compiling module xil_defaultlib.encryptSM4_59
+Compiling module xil_defaultlib.encryptSM4_60
+Compiling module xil_defaultlib.encryptSM4_61
+Compiling module xil_defaultlib.encryptSM4_62
+Compiling module xil_defaultlib.encryptSM4_63
+Compiling module xil_defaultlib.encryptSM4_64
+Compiling module xil_defaultlib.encryptSM4_65
+Compiling module xil_defaultlib.encryptSM4_66
+Compiling module xil_defaultlib.encryptSM4_67
+Compiling module xil_defaultlib.encryptSM4_68
+Compiling module xil_defaultlib.encryptSM4_69
+Compiling module xil_defaultlib.encryptSM4_70
+Compiling module xil_defaultlib.encryptSM4_71
+Compiling module xil_defaultlib.encryptSM4_72
+Compiling module xil_defaultlib.encryptSM4_73
+Compiling module xil_defaultlib.encryptSM4_74
+Compiling module xil_defaultlib.encryptSM4_75
+Compiling module xil_defaultlib.encryptSM4_76
+Compiling module xil_defaultlib.encryptSM4_77
+Compiling module xil_defaultlib.encryptSM4_78
+Compiling module xil_defaultlib.encryptSM4_79
+Compiling module xil_defaultlib.encryptSM4_80
+Compiling module xil_defaultlib.encryptSM4_82
+Compiling module xil_defaultlib.encryptSM4_83
+Compiling module xil_defaultlib.encryptSM4_84
+Compiling module xil_defaultlib.encryptSM4_85
+Compiling module xil_defaultlib.encryptSM4_86
+Compiling module xil_defaultlib.encryptSM4_87
+Compiling module xil_defaultlib.encryptSM4_88
+Compiling module xil_defaultlib.encryptSM4_89
+Compiling module xil_defaultlib.encryptSM4_90
+Compiling module xil_defaultlib.encryptSM4_91
+Compiling module xil_defaultlib.encryptSM4_92
+Compiling module xil_defaultlib.encryptSM4_93
+Compiling module xil_defaultlib.encryptSM4_94
+Compiling module xil_defaultlib.encryptSM4_95
+Compiling module xil_defaultlib.encryptSM4_96
+Compiling module xil_defaultlib.encryptSM4_97
+Compiling module xil_defaultlib.encryptSM4_98
+Compiling module xil_defaultlib.encryptSM4_99
+Compiling module xil_defaultlib.encryptSM4_100
+Compiling module xil_defaultlib.encryptSM4_101
+Compiling module xil_defaultlib.encryptSM4_102
+Compiling module xil_defaultlib.encryptSM4_103
+Compiling module xil_defaultlib.encryptSM4_104
+Compiling module xil_defaultlib.encryptSM4_105
+Compiling module xil_defaultlib.encryptSM4_106
+Compiling module xil_defaultlib.encryptSM4_107
+Compiling module xil_defaultlib.encryptSM4_108
+Compiling module xil_defaultlib.encryptSM4_109
+Compiling module xil_defaultlib.encryptSM4_110
+Compiling module xil_defaultlib.encryptSM4_111
+Compiling module xil_defaultlib.encryptSM4_112
+Compiling module xil_defaultlib.encryptSM4_113
+Compiling module xil_defaultlib.encryptSM4_114
+Compiling module xil_defaultlib.encryptSM4_115
+Compiling module xil_defaultlib.encryptSM4_116
+Compiling module xil_defaultlib.encryptSM4_117
+Compiling module xil_defaultlib.encryptSM4_118
+Compiling module xil_defaultlib.encryptSM4_119
+Compiling module xil_defaultlib.encryptSM4_120
+Compiling module xil_defaultlib.encryptSM4_121
+Compiling module xil_defaultlib.encryptSM4_122
+Compiling module xil_defaultlib.encryptSM4_123
+Compiling module xil_defaultlib.encryptSM4_124
+Compiling module xil_defaultlib.encryptSM4_125
+Compiling module xil_defaultlib.encryptSM4_126
+Compiling module xil_defaultlib.encryptSM4_127
+Compiling module xil_defaultlib.encryptSM4_128
+Compiling module xil_defaultlib.encryptSM4_129
+Compiling module xil_defaultlib.encryptSM4_130
+Compiling module xil_defaultlib.encryptSM4_81
+Compiling module xil_defaultlib.encryptSM4_131
+Compiling module xil_defaultlib.encryptSM4_132
+Compiling module xil_defaultlib.encryptSM4_133
+Compiling module xil_defaultlib.encryptSM4_134
+Compiling module xil_defaultlib.encryptSM4_135
+Compiling module xil_defaultlib.encryptSM4_136
+Compiling module xil_defaultlib.encryptSM4_137
+Compiling module xil_defaultlib.encryptSM4_138
+Compiling module xil_defaultlib.encryptSM4_139
+Compiling module xil_defaultlib.encryptSM4_140
+Compiling module xil_defaultlib.encryptSM4_141
+Compiling module xil_defaultlib.encryptSM4_142
+Compiling module xil_defaultlib.encryptSM4_143
+Compiling module xil_defaultlib.encryptSM4_144
+Compiling module xil_defaultlib.encryptSM4_145
+Compiling module xil_defaultlib.encryptSM4_146
+Compiling module xil_defaultlib.encryptSM4_147
+Compiling module xil_defaultlib.encryptSM4_148
+Compiling module xil_defaultlib.encryptSM4_149
+Compiling module xil_defaultlib.encryptSM4_150
+Compiling module xil_defaultlib.encryptSM4_151
+Compiling module xil_defaultlib.encryptSM4_152
+Compiling module xil_defaultlib.encryptSM4_153
+Compiling module xil_defaultlib.encryptSM4_154
+Compiling module xil_defaultlib.encryptSM4_155
+Compiling module xil_defaultlib.encryptSM4_156
+Compiling module xil_defaultlib.encryptSM4_157
+Compiling module xil_defaultlib.encryptSM4_158
+Compiling module xil_defaultlib.encryptSM4_159
+Compiling module xil_defaultlib.encryptSM4_160
+Compiling module xil_defaultlib.Work
+Compiling module xil_defaultlib.apatb_Work_top
+Compiling module work.glbl
+Built simulation snapshot Work
+
+****** Webtalk v2019.1 (64-bit)
+  **** SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+  **** IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source D:/sm4last/sm4/solution1/sim/verilog/xsim.dir/Work/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'D:/sm4last/sm4/solution1/sim/verilog/xsim.dir/Work/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Thu Jun 22 00:23:45 2023. For additional details about this file, please refer to the WebTalk help file at D:/Xilinx/Vivado/2019.1/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Thu Jun 22 00:23:45 2023...
+
+****** xsim v2019.1 (64-bit)
+  **** SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+  **** IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source xsim.dir/Work/xsim_script.tcl
+# xsim {Work} -autoloadwcfg -tclbatch {Work.tcl}
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+source Work.tcl
+## run all
+////////////////////////////////////////////////////////////////////////////////////
+// Inter-Transaction Progress: Completed Transaction / Total Transaction
+// Intra-Transaction Progress: Measured Latency / Latency Estimation * 100%
+//
+// RTL Simulation : "Inter-Transaction Progress" ["Intra-Transaction Progress"] @ "Simulation Time"
+////////////////////////////////////////////////////////////////////////////////////
+// RTL Simulation : 0 / 1 [0.00%] @ "125000"
+// RTL Simulation : 1 / 1 [100.00%] @ "219205000"
+////////////////////////////////////////////////////////////////////////////////////
+$finish called at time : 219245 ns : File "D:/sm4last/sm4/solution1/sim/verilog/Work.autotb.v" Line 160
+run: Time (s): cpu = 00:00:00 ; elapsed = 00:01:28 . Memory (MB): peak = 221.391 ; gain = 0.000
+## quit
+INFO: [Common 17-206] Exiting xsim at Thu Jun 22 00:25:20 2023...
+INFO: [COSIM 212-316] Starting C post checking ...
+INFO: [COSIM 212-1000] *** C/RTL co-simulation finished: PASS ***
+INFO: [COSIM 212-211] II is measurable only when transaction number is greater than 1 in RTL simulation. Otherwise, they will be marked as all NA. If user wants to calculate them, please make sure there are at least 2 transactions in RTL simulation.
